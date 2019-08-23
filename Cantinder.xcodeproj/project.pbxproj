@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512B2954230FE9BE0007B924 /* ChooseCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512B2953230FE9BE0007B924 /* ChooseCatViewController.swift */; };
 		51306F2C230D35910064ABEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51306F2B230D35910064ABEE /* AppDelegate.swift */; };
-		51306F2E230D35910064ABEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51306F2D230D35910064ABEE /* ViewController.swift */; };
+		51306F2E230D35910064ABEE /* YourCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51306F2D230D35910064ABEE /* YourCatViewController.swift */; };
 		51306F31230D35910064ABEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51306F2F230D35910064ABEE /* Main.storyboard */; };
 		51306F33230D35920064ABEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51306F32230D35920064ABEE /* Assets.xcassets */; };
 		51306F36230D35920064ABEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51306F34230D35920064ABEE /* LaunchScreen.storyboard */; };
@@ -18,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		512B2953230FE9BE0007B924 /* ChooseCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseCatViewController.swift; sourceTree = "<group>"; };
 		51306F28230D35910064ABEE /* Cantinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cantinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51306F2B230D35910064ABEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51306F2D230D35910064ABEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51306F2D230D35910064ABEE /* YourCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCatViewController.swift; sourceTree = "<group>"; };
 		51306F30230D35910064ABEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51306F32230D35920064ABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51306F35230D35920064ABEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +67,8 @@
 				51306F32230D35920064ABEE /* Assets.xcassets */,
 				51306F34230D35920064ABEE /* LaunchScreen.storyboard */,
 				51306F37230D35920064ABEE /* Info.plist */,
-				51306F2D230D35910064ABEE /* ViewController.swift */,
+				51306F2D230D35910064ABEE /* YourCatViewController.swift */,
+				512B2953230FE9BE0007B924 /* ChooseCatViewController.swift */,
 				51306F3D230D39000064ABEE /* ItemCollectionViewCell.swift */,
 				51306F3E230D39000064ABEE /* ItemCollectionViewCell.xib */,
 				51306F41230D46840064ABEE /* ImageViewerViewController.swift */,
@@ -145,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				512B2954230FE9BE0007B924 /* ChooseCatViewController.swift in Sources */,
 				51306F3F230D39000064ABEE /* ItemCollectionViewCell.swift in Sources */,
-				51306F2E230D35910064ABEE /* ViewController.swift in Sources */,
+				51306F2E230D35910064ABEE /* YourCatViewController.swift in Sources */,
 				51306F42230D46840064ABEE /* ImageViewerViewController.swift in Sources */,
 				51306F2C230D35910064ABEE /* AppDelegate.swift in Sources */,
 			);
